@@ -159,7 +159,7 @@ img {
 }
 
 .overlay {
-  min-width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -419,11 +419,6 @@ img {
   display: flex;
 }
 
-.connect {
-  margin-left: 70px;
-  margin-top: 12px;
-}
-
 .footer {
   background: #2f303a;
   padding: 60px 0;
@@ -471,7 +466,12 @@ img {
 
 /* Connect */
 
-.connect h3 {
+.connect {
+  padding-left: 70px;
+  padding-top: 12px;
+}
+
+.connect h2 {
   margin-bottom: 20px;
   color: #ffffff;
   font-weight: 700;
